@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
 * {
     font-family: 'Roboto';
 }
@@ -53,4 +55,96 @@ button,
 
 .footer {
     color: #f9faf8
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.hero-text,
+.info,
+.quote,
+.action {
+    flex: 1;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.left-text {
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+}
+
+.information-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-img {
+    border: blue;
+    border-style: solid;
+    border-width: medium;
+    height: 100px;
+    width: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
