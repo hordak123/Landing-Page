@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto';
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+a,
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button,
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.image {
+    background-color: darkgray;
+    color: #f9faf8;
+}
+
+.footer {
+    color: #f9faf8
+}
